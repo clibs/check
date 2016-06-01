@@ -1,6 +1,6 @@
 # check
 
-Super basic CHECK(), DCHECK(), and NOTREACHED() macro implementations.
+Super basic `CHECK()`, `DCHECK()`, and `NOTREACHED()` macro implementations.
 
 ## install
 
@@ -36,10 +36,11 @@ authors](https://www.chromium.org/developers/coding-style#TOC-CHECK-DCHECK-and-N
  DCHECK(foo);
 if (!foo) ...  // Can't succeed!
 
+// Replace this whole conditional with "DCHECK(bar);" and
+// keep going instead.
 if (!bar) {
   NOTREACHED();
-  return;  // Replace this whole conditional with "DCHECK(bar);" and
-keep going instead.
+  return;
 }
 ...
 ```
