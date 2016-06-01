@@ -1,0 +1,18 @@
+{
+  "name": "check",
+  "version": "0.0.1",
+  "repo": "clibs/check",
+  "description": "Super basic CHECK(), DCHECK(), and NOTREACHED() macro implementations.",
+  "keywords": [
+    "check",
+    "macro"
+  ],
+  "src": [
+    "include/check/check.h",
+    "include/check/dcheck.h",
+    "include/check/notreached.h"
+  ],
+  "dependencies": {
+    "clibs/unlikely": "0.0.1"
+  }
+}
