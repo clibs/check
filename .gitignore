@@ -1,6 +1,6 @@
-check
-dcheck
-notreached
+test/check
+test/dcheck
+test/notreached
 deps/
 
 # Object files
