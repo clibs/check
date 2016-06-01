@@ -11,8 +11,5 @@
     "include/check/check.h",
     "include/check/dcheck.h",
     "include/check/notreached.h"
-  ],
-  "dependencies": {
-    "clibs/unlikely": "0.0.1"
-  }
+  ]
 }
